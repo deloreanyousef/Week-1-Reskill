@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body, 
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5em 5em;
+  margin-bottom: 2em;
+  background-color: black;
+}
+
+.top-navigation-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-logo {
+  width: 70px;
+  margin-right: 2em;
+}
+
+.top-navigation-links {
+  display: flex;
+  gap: 2em;
+}
+
+.top-navigation-links a {
+  text-decoration: none;
+  color: red;
+  display: flex;
+  gap: 1em;
+}
+
+.top-navigation-links a:hover {
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  gap: 1em;
+  font-size: larger;
+}
+
+.top-navigation-right {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.top-navigation-right i {
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  padding: 0 .5em;
+}
+
+.top-navigation-right i:hover {
+  font-size: 40px;
+  color: white;
+  padding: 0 .5em;
+}
+
+.home-page-header {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.player-grid {
+  display: grid;
+  grid-template-columns: 25fr 25fr 25fr 25fr;
+  column-gap: 3%;
+  row-gap: 10%;
+  text-align: center;
+  padding: 0em 2em;
+  margin-bottom: 6em;
+}
+
+.players {
+  background-color: black;
+  border: 5px solid red;
+  border-radius: 2%;
+  padding: 2em 0em;
+}
+
+
+.player-images {
+  width: 100%;
+  aspect-ratio: 16 /9;
+  margin-top: 1em;
+}
+
+.players a{
+  text-decoration: none;
+  color: red;
+}
+
+.players a:hover{
+  text-decoration: underline;
+  color: white;
+  font-size: larger;
+}
+
+.players-hometown {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+  text-align: center;
+  color: red;
+  background-color: black;
+  border: 2px solid black;
+}
+
+.footer-copyright {
+  margin-left: 40%;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.footer-button {
+  background: white;
+  color: red;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 15%;
+  padding: .5em;
+  border: 1px solid black;
+  border-radius: 3%;
+}
+
+.footer-button a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-button a:hover {
+  text-decoration: underline;
+  color: red;
+}
